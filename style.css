@@ -1,3 +1,23 @@
-h1{
-    color:cornflowerblue;
+* {box-sizing: border-box;}
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.wrapper > div {
+  border: 2px solid rgb(240,3,49);
+  border-radius: 5px;
+  background-color: rgba(240,3,49, .5);
+  padding: 1em;
+  color: rgb(11,15,62);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.lol-jumbotron { 
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
