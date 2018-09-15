@@ -5,7 +5,7 @@ window.onload = function(){
 
 var renderDiv = function(){
     var comrade = document.getElementById('lol-jumbotron'); 
-    var div = "<div class='yearning'>" + "yearning" + "</div>";
+    var div = "<div class='portfolio-item'>" + "call anyone enough and they’ll answer" + "</div>";
     comrade.insertAdjacentHTML('afterend', div);
 }
 var showPortfolio = function(event){
