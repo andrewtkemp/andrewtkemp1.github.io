@@ -27,4 +27,15 @@
 
 #lol-jumbotron.loaded {
   transform: translateY(0%);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#lol-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#lol-links > li > a {
+  text-decoration: none;
+  text-transform: lowercase;
 }
