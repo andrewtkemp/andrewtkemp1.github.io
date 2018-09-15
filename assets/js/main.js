@@ -3,8 +3,17 @@ window.onload = function(){
     home.classList.add("loaded");
 }
 
-var showPage = function(event){
+var renderDiv = function(){
+    var comrade = document.getElementById('lol-jumbotron'); 
+    var div = "<div class='yearning'>" + "yearning" + "</div>";
+    comrade.insertAdjacentHTML('afterend', div);
+}
+var showPortfolio = function(event){
     var id = event.innerText;
-    var comrade = document.getElementById('lol-jumbotron');
-    comrade.insertAdjacentHTML('afterend', '<div id="two">two</div>');
+    var delay = 1000
+    var portfolioLength = 10;
+    for(var i = 0; i < portfolioLength; i++){
+        delay = delay + 1000;
+        setTimeout(renderDiv, delay)
+    }
 }
