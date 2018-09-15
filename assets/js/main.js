@@ -5,8 +5,11 @@ window.onload = function(){
 
 var renderDiv = function(){
     var comrade = document.getElementById('lol-jumbotron'); 
-    var div = "<div class='portfolio-item'>" + "call anyone enough and they’ll answer" + "</div>";
-    comrade.insertAdjacentHTML('afterend', div);
+    var portfolioItem = "<div class='portfolio-item'>";
+    portfolioItem += "<a href='https://google.com'>"
+    portfolioItem += "Portfolio Item"
+    portfolioItem += "</a>"
+    comrade.insertAdjacentHTML('afterend', portfolioItem);
 }
 var showPortfolio = function(event){
     var id = event.innerText;
