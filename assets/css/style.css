@@ -10,6 +10,7 @@
   background-color: rgba(240,3,49, .5);
   padding: 1em;
   color: rgb(11,15,62);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .wrapper {
   display: grid;
@@ -27,7 +28,6 @@
 
 #lol-jumbotron.loaded {
   transform: translateY(0%);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #lol-links {
@@ -35,7 +35,8 @@
   display: flex;
   justify-content: space-evenly;
 }
-#lol-links > li > a {
+#lol-links > li {
   text-decoration: none;
   text-transform: lowercase;
+  cursor: pointer;
 }
