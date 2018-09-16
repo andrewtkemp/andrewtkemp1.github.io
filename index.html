@@ -8,7 +8,8 @@
     <title>Andrew Kemp</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/images.css"/>
+    <link rel="stylesheet" href="./assets/css/images.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
 </head>
 
 <body>
@@ -16,12 +17,17 @@
     <div class="wrapper">
         <div id="lol-jumbotron">call anyone enough and they’ll answer
             <ul id="lol-links">
-                <li class="nav-link" onclick="showPortfolio(this)">Portfolio</li>
-                <li class="nav-link" onclick="showPage(this)">Resume</li>
-                <li class="nav-link" onclick="showPage(this)">Contact</li>
+                <li class="nav-link" id="portfolio">Portfolio</li>
+                <li class="nav-link">Resume</li>
+                <li class="nav-link">Contact</li>
             </ul>
         </div>
-    </div>
+        <div>
+                <div class="portfolio-item loaded"><a href="https://estimate.calibercollision.com/" target="_blank">
+                        <div id="caliber-collision-estimate" class="image-div media"><img src="./assets/images/CaliberEstimate.png">
+                            <div class="media__body">Caliber Collision - Estimate</div>
+                        </div>
+                    </a></div>
     </div>
     <script src="./assets/js/resume.js"></script>
     <script src="./assets/js/main.js"></script>
