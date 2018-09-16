@@ -1,0 +1,29 @@
+#lol-jumbotron {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    transform: translateY(-100%);
+    transition: all 2s;
+    transition-delay: 1s;
+}
+
+#lol-jumbotron.loaded {
+    transform: translateY(0%);
+}
+
+#lol-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lol-links>li {
+    text-decoration: none;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+@media screen and (min-width:375px) and (max-width:1024px) {
+    #lol-jumbotron {
+        grid-column: 1 / 4;
+    }
+}
