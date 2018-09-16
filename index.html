@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andrew Kemp</title>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/images.css"/>
 </head>
 
 <body>
-    <div>
-        <div class="wrapper">
-            <div id="lol-jumbotron">call anyone enough and they’ll answer
-                <ul id="lol-links">
-                    <li onclick="showPortfolio(this)">Portfolio</li>
-                    <li onclick="showPage(this)">Resume</li>
-                    <li onclick="showPage(this)">Contact</li>
-                </ul>
-            </div>
+    <div id="overlay"></div>
+    <div class="wrapper">
+        <div id="lol-jumbotron">call anyone enough and they’ll answer
+            <ul id="lol-links">
+                <li class="nav-link" onclick="showPortfolio(this)">Portfolio</li>
+                <li class="nav-link" onclick="showPage(this)">Resume</li>
+                <li class="nav-link" onclick="showPage(this)">Contact</li>
+            </ul>
         </div>
     </div>
-    <div class="wrapper">
-
     </div>
+    <script src="./assets/js/resume.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
