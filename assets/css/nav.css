@@ -1,7 +1,7 @@
 #lol-jumbotron {
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
     grid-row: 1 / 2;
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     transition: all 2s;
     transition-delay: 1s;
 }
@@ -22,8 +22,8 @@
     cursor: pointer;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:768px) {
     #lol-jumbotron.loaded {
-        grid-column: 1 / 4;
+        grid-column: 2 / 4;
     }
 }
