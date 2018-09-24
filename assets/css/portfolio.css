@@ -1,3 +1,4 @@
-#lol-jumbotron.shift{
-    grid-column: 1/4;
+#portfolio-container{
+    margin-top: 1em;
+    display: none;
 }

@@ -2,11 +2,7 @@ const home = document.getElementById("lol-jumbotron");
 const overlay = document.getElementById("overlay");
 const portfolio = document.getElementById("portfolio");
 portfolio.addEventListener("click", function () {
-    if(home.classList[1] === "shift"){
-        home.classList.remove("shift");
-        return true;
-    }
-    home.classList.add("shift");
+    loading(true);
 })
 const loading = function (isLoading) {
     if (isLoading) {
