@@ -1,0 +1,8 @@
+#content-container {
+    margin-top: 1em;
+    display: none;
+}
+#content-container.loaded{
+    margin-top: 1em;
+    display: grid;
+}
