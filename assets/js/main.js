@@ -3,9 +3,11 @@ var navLinks = document.getElementsByClassName("nav-link");
 var contentContainer = document.getElementById("content-container")
 var renderContent = function(){
     var divToFill = contentContainer.querySelector("div")
-    for(var i = 0; i < 100; i++){
+    divToFill.innerHTML = "";
+    console.log("Projects", projects)
+    for(var i = 0; i < projects.length; i++){
         var newDiv = document.createElement("div")
-        newDiv.innerText = "I've Had Some Work Done"
+        newDiv.innerText = projects[i].name
         divToFill.append(newDiv)
     }
 }
