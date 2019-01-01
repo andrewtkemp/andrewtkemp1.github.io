@@ -1,10 +1,12 @@
 var home = document.getElementById("lol-jumbotron");
 var navLinks = document.getElementsByClassName("nav-link");
 var contentContainer = document.getElementById("content-container")
+var contentTitle = document.getElementById("content-title")
 var renderContent = function(){
     console.log("Projects", projects)
     for(var i = 0; i < projects.length; i++){
         var newDiv = document.createElement("div")
+        newDiv.classList.add("item-" + i)
         newDiv.innerText = projects[i].name
         contentContainer.append(newDiv)
     }
@@ -12,10 +14,11 @@ var renderContent = function(){
 }
 var getContentType = function () {
     contentContainer.innerHTML = "";
+    contentTitle.innerHTML = "";
     var contentType = this.getAttribute("data-id");
     var contentHeader = document.createElement("h1");
     contentHeader.innerText = contentType
-    contentContainer.append(contentHeader)
+    contentTitle.append(contentHeader)
     if(contentType === "Portfolio"){
         renderContent()
     }
