@@ -2,69 +2,101 @@ var projects = [{
         name: "Caliber Collision",
         id: "caliber-collision",
         image: "CaliberCollision.png",
-        url: "https://calibercollision.com/",
-        technologies: ["VueJS", "Laravel", "Statamic 2 CMS"]
+        url: "https://calibercollision.com/"
     },
     {
         name: "Caliber Collision - Blog",
         id: "caliber-collision-blog",
         image: "CaliberBlog.png",
-        url: "https://blog.calibercollision.com/",
-        technologies: ["Ghost Blog"]
+        url: "https://blog.calibercollision.com/"
     },
     {
         name: "Caliber Collision - Estimate",
         id: "caliber-collision-estimate",
         image: "CaliberEstimate.png",
-        url: "https://estimate.calibercollision.com/",
-        technologies: ["PHP", "jQuery"]
+        url: "https://estimate.calibercollision.com/"
     },
     {
         name: "AT&T Byron Nelson Official Website",
         id: "byron-nelson",
         image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        url: "http://www.attbyronnelson.org/"
     },
     {
         name: "Battery Junction",
-        id: "byron-nelson",
-        image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        id: "battery-junction",
+        image: "BatteryJunction.png",
+        url: "https://www.batteryjunction.com/"
     },
     {
-        name: "Battery Junction",
-        id: "byron-nelson",
-        image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        name: "Fossil",
+        id: "fossil",
+        image: "Fossil.png",
+        url: "https://www.fossil.com/us/en.html"
     },
     {
-        name: "Battery Junction",
-        id: "byron-nelson",
-        image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
-    },
-    {
-        name: "Battery Junction",
-        id: "byron-nelson",
-        image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        name: "DJS",
+        id: "djs",
+        image: "DJS.png",
+        url: "http://www.djsintl.com/"
     }, {
-        name: "Battery Junction",
-        id: "byron-nelson",
+        name: "Mexene",
+        id: "mexene",
         image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        url: "http://www.attbyronnelson.org/"
     },
     {
-        name: "Battery Junction",
+        name: "Momentous Institute",
         id: "byron-nelson",
         image: "ATTBNC.png",
-        url: "http://www.attbyronnelson.org/",
-        technologies: ["Sass", "Vue2", "Wordpress"]
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Pecan Lodge",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Seasons Medical",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Shore Power",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Skagen",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Sontava",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Teasdale Latin Foods",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "The Cupboard",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
+    },
+    {
+        name: "Twico",
+        id: "byron-nelson",
+        image: "ATTBNC.png",
+        url: "http://www.attbyronnelson.org/"
     }
 ]

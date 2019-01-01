@@ -2,20 +2,20 @@ var home = document.getElementById("lol-jumbotron");
 var navLinks = document.getElementsByClassName("nav-link");
 var contentContainer = document.getElementById("content-container")
 var renderContent = function(){
-    var divToFill = contentContainer.querySelector("div")
-    divToFill.innerHTML = "";
     console.log("Projects", projects)
     for(var i = 0; i < projects.length; i++){
         var newDiv = document.createElement("div")
         newDiv.innerText = projects[i].name
-        divToFill.append(newDiv)
+        contentContainer.append(newDiv)
     }
+    contentContainer.classList.add("loaded")
 }
 var getContentType = function () {
+    contentContainer.innerHTML = "";
     var contentType = this.getAttribute("data-id");
-    console.log("Content Type Is ", contentType)
-    contentContainer.querySelector("h1").innerHTML = contentType
-    contentContainer.classList.add("loaded")
+    var contentHeader = document.createElement("h1");
+    contentHeader.innerText = contentType
+    contentContainer.append(contentHeader)
     if(contentType === "Portfolio"){
         renderContent()
     }
