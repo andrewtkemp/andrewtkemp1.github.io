@@ -1,3 +1,7 @@
+body{
+    width: 50%;
+    margin:0 auto;
+}
 #content-container {
     margin-top: 1em;
     display: none;
