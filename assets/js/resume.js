@@ -100,3 +100,7 @@ var projects = [{
         url: "http://www.attbyronnelson.org/"
     }
 ]
+var contact = {
+    phone:"(214)744-3625",
+    email:"andrewtkemp@gmail.com"
+}

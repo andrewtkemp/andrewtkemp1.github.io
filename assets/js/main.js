@@ -4,15 +4,26 @@ var contentContainer = document.getElementById("content-container");
 var contentTitle = document.getElementById("content-title");
 var lyricSpan = document.getElementById("lmao-wtf-is-wrong-with-you")
 var renderContent = function (type) {
-    console.log("Projects", projects)
-    for (var i = 0; i < projects.length; i++) {
-        var newDiv = document.createElement("div")
-        var newAnchor = document.createElement("a")
-        newAnchor.setAttribute("href", projects[i].url);
-        newAnchor.innerText = projects[i].name
-        newDiv.classList.add("item-" + i)
-        newDiv.append(newAnchor)
-        contentContainer.append(newDiv)
+    if(type === "Portfolio"){
+        for (var i = 0; i < projects.length; i++) {
+            var newDiv = document.createElement("div")
+            var newAnchor = document.createElement("a")
+            newAnchor.setAttribute("href", projects[i].url);
+            newAnchor.innerText = projects[i].name
+            newDiv.classList.add("item-" + i)
+            newDiv.append(newAnchor)
+            contentContainer.append(newDiv)
+        }
+    }
+    else if(type === "Contact"){
+        var contactDiv = document.createElement("div");
+        var phone = document.createElement("p");
+        var email = document.createElement("p");
+        phone.innerText = contact.phone
+        email.innerText = contact.email
+        contactDiv.append(phone)
+        contactDiv.append(email)
+        contentContainer.append(contactDiv)
     }
     contentContainer.classList.add("loaded")
 }
