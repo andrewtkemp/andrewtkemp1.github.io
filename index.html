@@ -10,37 +10,19 @@
 </head>
 
 <body>
-  <body>
+  <script>
+      function returnData() {
+      return {
+          "c": parseFloat(Math.random() * 1000).toFixed(2),
+          "h": parseFloat(Math.random() * 1000).toFixed(2),
+          "l": parseFloat(Math.random() * 1000).toFixed(2),
+          "o": parseFloat(Math.random() * 1000).toFixed(2),
+          "pc": parseFloat(Math.random() * 1000).toFixed(2),
+          "t": 1582641000 
+        }
+      }
 
-  <!-- MAIN (Center website) -->
-  <div class="main">
-      <ul class="main-nav">
-          <!-- <li><a href="*">Blog(Coming Soon)</a></li> -->
-          <li><a href="./works.html"><strong>PORTFOLIO</strong></a></li>
-          <!-- <li><a href="*">Resume(Coming Soon)</a></li> -->
-      </ul>
-    <h1>Andrew T. Kemp <span style="float:right">☺</span></h1>
-    <hr>
-    <h2>Full Stack Web Developer</h2>
-    <p>Located in <b><i>Dallas, Tx USA</i></b> looking for new <i><b>opportunities.</b></i></p>
-    <div class="content-no-border">
-      <!-- <img src="./assets/images/cover.jpg"> -->
-      <h3>Background ▸</h3>
-      <p>I am former writer/musician turned Full Stack Web Developer. My past experience in Marketing, Instructional Design and Recruiting have allowed me to become a quick contributor to a variety of Web Sites and Desktop Applications.</p>
-      <p>I am currently an instructor for Continuing and Professional Education at SMU, as well as a Corporate Trainer for Trilogy Education Services. I teach Full Stack Web Development with an emphasis on React JS.</p>
-      <p>Learn more about me <a href="https://www.linkedin.com/in/andrewtkemp1">here</a>, and see my portfolio <a href="./works.html">here</a></p>
-
-      <h3>Experience ▸</h3>
-      <p>I graduated from DevMountain in 2016 with a certificate in Full Stack Web Development, focusing on the MEAN/MERN stacks. I also hold an English degree from BYU-Idaho.
-      <p>See my full Portfolio <a href="./works.html">here</a>, and my Resume <a href="./resume.html">here</a>.</p>
-
-      Since graduation, my clients have included the US Navy, Fossil, Caliber Collision and Oncor Energy.<br/><br/><br/>
-
-      </p>
-
-      <h3>When I Let My Hair Down ▸</h3>
-      <p>I enjoy working with high school and middle school students interested in STEM careers, as well as volunteering in other non-technical capacities.</p>
-    </div>
-    <p id="end"><i>I grew beyond them and found a real life.</i></p>
+  returnData();
+  </script>
 </body>
 </html>
